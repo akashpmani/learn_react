@@ -8,10 +8,10 @@ import reportWebVitals from './reportWebVitals';
 const a = <div> <h1>hhss</h1></div>
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  <div> <h1>hhss</h1></div>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+ 
 
 );
 // ReactDOM.render(
